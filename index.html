@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>qsoft</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="js/main.js"></script>
+</head>
+<body class="class">
+  <header class="header">
+    <div class="container header__container">
+      <a class="header__logo" href="index.html" title="Логотип компании Qsoft">
+        <img class="logo__img" src="https://i.postimg.cc/1tN0kKC0/logo.png" alt="Логотип компании Qsoft">
+      </a>
+      <a class="header__profile-mini" href="#" title="Войти в профиль">
+        <svg class="profile-mini__icon" width="25" height="25" viewbox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M12.0576 13.229C7.98278 13.229 4.61188 16.2879 4.11951 20.231C4.05108 20.779 4.50536 21.229 5.05765 21.229C5.60993 21.229 6.04891 20.7779 6.14028 20.2332C6.61603 17.3972 9.08858 15.229 12.0576 15.229C15.0267 15.229 17.4993 17.3972 17.975 20.2332C18.0664 20.7779 18.5054 21.229 19.0576 21.229C19.6099 21.229 20.0642 20.779 19.9958 20.231C19.5034 16.2879 16.1325 13.229 12.0576 13.229Z" fill="#34AADD"/>
+          <path d="M12.0576 11.229C14.2636 11.229 16.0576 9.435 16.0576 7.229C16.0576 5.023 14.2636 3.229 12.0576 3.229C9.85162 3.229 8.05762 5.023 8.05762 7.229C8.05762 9.435 9.85162 11.229 12.0576 11.229" stroke="#34AADD" stroke-width="2"/>
+        </svg>
+      </a>
+      <div class="header__form">
+        <form class="form-search" action="https://jsonplaceholder.typicode.com/posts" method="post">
+          <button class="form-search__button"></button>
+          <input class="form-search__input" name="search-text" placeholder="Найти..."/>
+        </form>
+      </div>
+      <div class="header__profile">
+        <div class="profile">
+          <div class="profile__name" id="profileName">Константин</div>
+          <div class="profile__photo" id="profilePhoto"><img src="https://i.postimg.cc/0NbVZWjk/profile-photo.jpg" alt="Фото профиля"></div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="main">
+    <div class="container main__container">
+      <h1 class="main__title-1">наши партнёры</h1>
+      <ul class="gallery__block" id="galleryBlock">
+        <li class="gallery__item gallery_mR-4 gallery_mB-1"><a class="gallery__link gallery_bg-1" href="#" target="_blank" title="Henkel"> </a></li>
+        <li class="gallery__item gallery_mR-4 gallery_mB-1"><a class="gallery__link gallery_bg-2" href="#" target="_blank" title="John Deere"> </a></li>
+        <li class="gallery__item gallery_mR-4 gallery_mB-1"><a class="gallery__link gallery_bg-3" href="#" target="_blank" title="McDonald`s"> </a></li>
+        <li class="gallery__item gallery_mR-4 gallery_mB-1"><a class="gallery__link gallery_bg-4" href="#" target="_blank" title="Ikea"> </a></li>
+        <li class="gallery__item gallery_mR-4 gallery_mB-1"><a class="gallery__link gallery_bg-5" href="#" target="_blank" title="Reebok"> </a></li>
+        <li class="gallery__item gallery_mR-4 gallery_mB-1"><a class="gallery__link gallery_bg-6" href="#" target="_blank" title="Nike"> </a></li>
+        <li class="gallery__item gallery_mR-4 gallery_mB-1"><a class="gallery__link gallery_bg-7" href="#" target="_blank" title="Caterpillar"> </a></li>
+        <!--Тест на разное соотношение сторон изображения-->
+        <!--
+        <li class="gallery__item gallery_mR-4 gallery_mB-1"><a class="gallery__link gallery_bg-8" href="#" target="_blank" title="150x50"> </a></li>
+        <li class="gallery__item gallery_mR-4 gallery_mB-1"><a class="gallery__link gallery_bg-9" href="#" target="_blank" title="50x150"> </a></li> 
+        -->
+      </ul>
+    </div>
+  </section>  
+  
+</body>
+</html>
